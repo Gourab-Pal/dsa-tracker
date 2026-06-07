@@ -38,7 +38,7 @@ export default function AuthPage() {
       <div className="auth-card">
         <div className="auth-card__header">
           <div className="auth-card__icon">📊</div>
-          <h1 className="auth-card__title">DSA Tracker</h1>
+          <h1 className="auth-card__title">Track DSA</h1>
           <p className="auth-card__subtitle">Track your coding progress</p>
         </div>
 

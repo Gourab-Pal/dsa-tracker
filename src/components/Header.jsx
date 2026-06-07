@@ -15,7 +15,7 @@ export default function Header({ questions, streak, weeklySolved, weeklyGoal, us
           <div className="header__brand">
             <div className="header__icon">📊</div>
             <div>
-              <h1 className="header__title">DSA Tracker</h1>
+              <h1 className="header__title">Track DSA</h1>
               <p className="header__subtitle">{pct}% solved · {streak > 0 ? `🔥 ${streak} day streak` : 'Start your streak today'}</p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-# DSA Tracker
+# Track DSA
 
 A full-featured DSA practice tracker built with React, Vite, and Supabase.
 
