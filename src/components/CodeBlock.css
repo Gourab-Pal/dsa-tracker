@@ -1,0 +1,53 @@
+/* ── Code Block — always dark IDE theme ── */
+.code-block {
+  display: flex;
+  background: #1e1e2e;
+  border-radius: var(--radius-md);
+  border: 1px solid #2a2a3c;
+  overflow: hidden;
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  margin: 0;
+  tab-size: 2;
+}
+
+/* ── Line Numbers ── */
+.code-block__gutter {
+  padding: 14px 0;
+  background: #181825;
+  border-right: 1px solid #2a2a3c;
+  user-select: none;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.code-block__line-num {
+  padding: 0 12px 0 14px;
+  color: #4a4a5e;
+  font-size: 0.72rem;
+  line-height: 1.7;
+  min-width: 32px;
+}
+
+/* ── Code Area ── */
+.code-block__code {
+  flex: 1;
+  padding: 14px 18px;
+  overflow-x: auto;
+  margin: 0;
+  color: #cdd6f4;
+  white-space: pre;
+}
+
+.code-block__line {
+  min-height: 1.7em;
+}
+
+/* ── Syntax Colors (Catppuccin Mocha inspired) ── */
+.code-keyword  { color: #cba6f7; font-weight: 600; }
+.code-string   { color: #a6e3a1; }
+.code-comment  { color: #585b70; font-style: italic; }
+.code-number   { color: #fab387; }
+.code-function { color: #89b4fa; }
+.code-type     { color: #f9e2af; }
